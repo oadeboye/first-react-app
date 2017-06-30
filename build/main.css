@@ -1,0 +1,39 @@
+
+.todoApp{
+  margin: 10px 20px;
+  padding-left: 0px;
+  border: 1px solid #C7BFD2;
+  border-radius: 5px;
+}
+
+.inputLine{
+  border-bottom: 1px solid #C7BFD2;
+  padding: 15px 10px;
+  background-color: #EBE9EE;
+}
+
+.todoList{
+
+  padding: 20px 5px;
+  margin-top: 0px;
+
+}
+
+.todoList ul{
+  list-style: none;
+  margin-left: 0px;
+}
+
+.todoList button{
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.todoItem{
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+strike{
+  color: #5D467E;
+}
