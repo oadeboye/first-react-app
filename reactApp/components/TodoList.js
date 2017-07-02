@@ -11,10 +11,10 @@ class TodoList extends React.Component{
   render(){
     return (
       <div className="todoList">
-        <ul>{this.props.todos.map((todo, i) => {
-          var keyTime = i;
-          return <Todo todo={todo} keyTime={keyTime}/>
-        })}</ul>
+        <ul>
+          {this.props.todos.map((todo, i) => {
+          return <Todo todo={todo} key={i}/>})}
+        </ul>
       </div>
     )
   }
